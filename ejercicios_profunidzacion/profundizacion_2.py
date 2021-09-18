@@ -33,3 +33,13 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
 
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+print("ingrese su nombre completo")
+nombre_completo=str(input())
+print("ingresar DNI")
+DNI=int(input())
+print("ingrese su edad")
+edad=int(input())
+print("ingrese su altura")
+altura=float(input())
+print("Nombre Completo:", nombre_completo, "DNI:", DNI)
+print("Nombre Completo:", nombre_completo, "Edad", edad, "Altura", altura)

@@ -31,3 +31,32 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+print('Ingrese por consola el primer número decimal a operar:')
+numero_1 = int(input())
+
+print("Ingrese por consola el segundo número decimal a operar:")
+numero_2 = int(input())
+print('''Ingrese segun lo que quiera calcular:
+A) Suma
+B) Resta
+C) Multiplicación
+D) División
+E) Exponente/Potencia''')
+letra=str(input())
+if letra == "a":
+  suma=numero_1+numero_2
+  print(suma)
+elif letra == "b":
+  resta=numero_1-numero_2
+  print(resta)
+elif letra == "c":
+  divicion=numero_1/numero_2
+  print(divicion)
+elif letra == "d":
+  multiplicacion=numero_1*numero_2
+  print(multiplicacion)
+elif letra == "e":
+  exponente=numero_1**numero_2
+  print(exponente)
+else:
+  print("no ingreso ninguna letra admitida")
