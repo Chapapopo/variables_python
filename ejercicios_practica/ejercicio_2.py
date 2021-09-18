@@ -19,7 +19,7 @@ numero_2 = int(input())
 
 # Alumno: Imprima en pantalla los dos números decimales solicitados
 # print(....)
-
+print(numero_1, numero_2)
 # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
 # numero_1, numero_2
 # Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
@@ -27,9 +27,14 @@ numero_2 = int(input())
 # NOTA: No coloque usted los nùmeros y resultados, use las variables
 
 # Suma
-
+suma=numero_1+numero_2
+print("el resultado de la suma",numero_1,"y",numero_2,"es",suma)
 # Resta
-
+resta=numero_1-numero_2
+print("el resultado de la resta",numero_1,"y",numero_2,"es",resta)
 # División
-
+divicion=numero_1/numero_2
+print("el resultado de la divicion",numero_1,"y",numero_2,"es",divicion)
 # Multiplicación
+multiplicacion=numero_1*numero_2
+print("el resultado de la multiplicacion",numero_1,"y",numero_2,"es",multiplicacion)

@@ -17,8 +17,10 @@ numero_2 = 7
 # Almacenar el valor de la suma en una variable
 # ej:
 # operacion = .....
-
+suma = numero_1 + numero_2
 # Imprimir en pantalla el resultado de la suma
 # print(....)
-
+print(suma)
 # Repita el procedimiento para realizar la resta
+resta = numero_1 - numero_2
+print (resta)
